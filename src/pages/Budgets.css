@@ -1,0 +1,124 @@
+.budgets-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.add-budget-form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.budgets-list {
+  display: grid;
+  gap: 15px;
+}
+
+.budget-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.budget-item:hover {
+  transform: translateY(-2px);
+}
+
+.budget-info h4 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.budget-info p {
+  margin: 0;
+  color: #666;
+}
+
+.budget-amount {
+  flex-grow: 1;
+  margin: 0 30px;
+}
+
+.amount-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.target {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.spent {
+  color: #666;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  padding: 8px 15px;
+  font-size: 14px;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+  opacity: 1;
+}

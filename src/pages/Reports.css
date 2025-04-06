@@ -1,0 +1,99 @@
+.reports-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.summary-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.summary-card h3 {
+  margin: 0 0 10px 0;
+  color: #666;
+}
+
+.summary-card .amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.category-analysis, .monthly-analysis {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.category-item {
+  margin-bottom: 20px;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category-header h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.amounts {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.percentage {
+  font-weight: bold;
+  min-width: 60px;
+  text-align: right;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.monthly-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.monthly-item:last-child {
+  border-bottom: none;
+}
+
+.monthly-item .month {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.monthly-item .amount {
+  color: #666;
+}
